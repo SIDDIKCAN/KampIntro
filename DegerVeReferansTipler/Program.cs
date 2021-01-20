@@ -6,6 +6,10 @@ namespace DegerVeReferansTipler
     {
         static void Main(string[] args)
         {
+            //int,double,bool Değer Tipler
+            //interface,arraylar,classlar,abstract classlar referans tipdir.
+            //ref ve out araştır
+
             Console.WriteLine("Hello World!");
 
             int sayi1 = 10;
