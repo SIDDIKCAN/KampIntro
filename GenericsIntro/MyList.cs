@@ -17,6 +17,13 @@ namespace GenericsIntro
         {
             T[] tempArray = items;
             items = new T[items.Length + 1];//dizinin eleman sayısını 1 artıyoruz.
+
+            for (int i = 0; i < tempArray.Length; i++)
+            {
+                items[i] = tempArray[i];
+            }
+
+            items[items.Length - 1] = item;
         }
     }
 }
