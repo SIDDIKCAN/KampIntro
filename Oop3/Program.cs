@@ -42,15 +42,13 @@ namespace Oop3
 
             BasvuruManager basvuruManager = new BasvuruManager();
             basvuruManager.BasvuruYap(ihtiyacKrediManager,loggers);
+
             //ikinci yazım yöntemi
-            basvuruManager.BasvuruYap(new EsnafKredisiManager(), loggers);
+            //basvuruManager.BasvuruYap(new EsnafKredisiManager(), loggers);
 
             List<IKrediManager> krediler = new List<IKrediManager>() { ihtiyacKrediManager, tasitKrediManager };
 
-            //basvuruManager.KrediOnBilgilendirmesiYap(krediler);
-
-
-
+            basvuruManager.KrediOnBilgilendirmesiYap(krediler);
         }
     }
 }

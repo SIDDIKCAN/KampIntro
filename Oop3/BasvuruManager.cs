@@ -13,6 +13,7 @@ namespace Oop3
             //Başvuru bilgileri değerlendirme 
 
             krediManager.Hesapla();
+
             foreach (var logger in loggerService)
             {
                 logger.Log();

@@ -9,6 +9,8 @@ namespace Oop2
     {
         public void Ekle(Musteri musteri)
         {
+            Console.WriteLine(musteri.MusteriNo);
+            Console.ReadLine();
             
         }
     }
